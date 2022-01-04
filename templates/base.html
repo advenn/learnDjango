@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test site</title>
+</head>
+<body>
+<header>
+  <a href="{% url 'home' %}">Home </a>
+    written in base.html
+    <a href="{% url 'about' %}">About</a>
+</header>
+outside of block
+
+{% block content %}
+
+
+{% endblock content %}
+</body>
+</html>
